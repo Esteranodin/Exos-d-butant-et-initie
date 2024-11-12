@@ -10,7 +10,10 @@ for (let fruit = 0; fruit < tabFruits.length; fruit = fruit +1){
     console.log(tabFruits[fruit]);
 }
 
-for (let a = 0; a < 21; a = a + 1) {
-    if (a )
+for (let a = 1; a < 21; a = a + 1) {
+    if (a % 2 === 0) {
+        console.log(a);
+        
+    }
 }
     
