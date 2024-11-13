@@ -5,23 +5,19 @@
 // Exo 2
 // let nombre1 = 5;
 // let nombre2 = 10;
-
 // console.log(nombre1 + nombre2);
 
 
 // Exo 3
 // let tabFruits = ['kiwi', 'fraise', 'mure'];
 // for (let fruit = 0; fruit < tabFruits.length; fruit = fruit + 1) {
-//     console.log(tabFruits[fruit]);
-// }
+//     console.log(tabFruits[fruit]); }
 
 
 // Exo 4
 // for (let a = 1; a < 21; a = a + 1) {
 //     if (a % 2 === 0) {
-//         console.log(a);
-
-//     }
+//         console.log(a); }
 // }
 
 
@@ -39,35 +35,39 @@
 // }
 // console.log('Le nombre de voyelles est :' + nombreVoyelles)
 
+
 // Exo 5 sans boucle dans la boucle
 // const mot = 'bidouille';
 // const voyelle = /[aeiou]/g;
 // const voyellesFound = (mot.match(voyelle));
-
 // console.log(voyellesFound.length);
 
-
+//Exo 6 PAS FINI
 // const phrase = 'les poules ont des dents';
 // const caract = /\w/g;
 // const lettresFound = phrase.match(caract);
-
 // const occurence = /\w/;
-
 // console.log(lettresFound.search(occurence));
 
+//Exo 7
+// const tabChiffres = [17, 32, 29, -25, -91];
+// let nombresPositifs = [];
+// let nombresNegatifs = [];
+// for (let i = 0; i < tabChiffres.length; i = i + 1) {
+//     if (tabChiffres[i] < 0) {
+//         nombresNegatifs.push(tabChiffres[i])
+//     }
+//     else {
+//         nombresPositifs.push(tabChiffres[i]);
+//     }
+// };
+// console.log(nombresNegatifs);
+// console.log(nombresPositifs);
 
+//EXO 8
+let liste5nombres = [56, 87, 78728, 278, 99];
+for (let i = 0; i<liste5nombres.length; i = i+1){
+if (liste5nombres[i].length)
+};
 
-const phrase = "les poules ont des dents"
-let count = {}
-
-for (let index = 0; index < phrase.length; index++) {
-  let ch = phrase.charAt(index);
-  if (!count[ch]) {
-    count[ch] = 1;
-  } else {
-    count[ch] += 1;
-  }
-}
-console.log(
-  "Le nombre d'apparition de chaque lettres dans la phrase est " , count
-); 
+console.log(liste5nombres.length)
