@@ -95,7 +95,7 @@
 // EXO 9
 // let unmot = 'rognon';
 // let aEnvers = '';
-// for (let i = unmot.length - 1; i >= 0; i = i - 1) {
+// for (let i = unmot.length - 1; i >= 0; i -= 1) {
 //     aEnvers = aEnvers + unmot[i];
 // };
 // console.log(aEnvers);
